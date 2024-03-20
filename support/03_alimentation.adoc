@@ -1,0 +1,176 @@
+:imagesdir: img
+[%notitle]
+== Création des datasets
+
+image::03_avancement.png[size=fill]
+
+[.notes]
+--
+* On va ensuite continuer par la phase de la récupération des données, la transformation, et dans l'intégration dans de nouveaux jeux de données plus exploitable pour l'analyse et/ou pour la restitution
+--
+
+[%notitle]
+[.p2.bar1]
+=== Situation 4
+
+image::02_selec_situation.jpg[width=700]
+
+[.notes]
+--
+* N'oublions pas notre producteur de film, dont l'ensemble de ses jeux de données sont des fichiers sources de type Excel
+* Spoiler alert sur ma vision d'Excel : Le coup le plus rusé du diable... de Microsoft, pardon, a été de faire croire qu'on pouvait faire de la dataviz dans Excel
+--
+
+[%notitle]
+[.p2.bar2]
+=== Analogie
+
+image::02_selec_analogie.jpeg[width=700]
+
+[.notes]
+--
+* Dans la vie de tous les jours on pourrait ne chercher que des avis positifs sur un produit ou un service en ligne avant de l'acheter, tout en ignorant les avis négatifs. On parlera alors de biais de sélection
+--
+
+[%notitle]
+[.p2.bar3]
+=== Biais de sélection
+
+[.poke]
+image::poke_selec.png[width=500]
+
+[.notes]
+--
+Les biais de sélection se produisent lors de l'échantillonnage, c'est-à-dire lors de la sélection d'un échantillon représentatif de la population étudiée. Ils sont liés aux critères d'inclusion des individus dans l'étude et se produisent lorsque les sujets inclus dans l'étude ne constituent pas un groupe représentatif de la population cible.
+Je fais une digression en l'appliquant directement aux datasources
+--
+
+[%notitle]
+[.p2.bar4]
+=== Biais de sélection : Que faire ?
+
+* Ne jamais se limiter que l'on possède (et surtout pas XL)
+* Construire ou demander les jeux de données manquants
+
+[.notes]
+--
+* On déborde de données, mais trop souvent on se restreint sur XL. Les données proviennent de quelque part, mais on se base déjà sur un échantillon de donnée
+* On parle beaucoup de data gouvernance, et de data owner, il ne faut jamais se restreindre à son périmètre
+--
+
+[%notitle]
+[.p2.bar5]
+=== Résultat Situation 4
+
+image::02_selec_resultat.png[width=700]
+
+[.notes]
+--
+* En se basant sur un échantillon de données de 2020 (année du covid si certains d'entre vous s'en souviennent) on va par exemple trop se restreindre
+--
+
+[%notitle]
+[.p2.bar1]
+=== Situation 5
+
+image::02_innov_situation.jpeg[width=700]
+
+[.notes]
+--
+* On peut mettre un peu d'IA par dessus. L'IA c'est hype, et ca m'a coûté bien cher donc on l'utilise
+* Cette situation est pas mal car elle révèle deux sujets intéressant
+--
+
+[%notitle]
+[.p2.bar2]
+=== Analogie
+
+image::02_innov_analogie.jpeg[width=700]
+
+[.notes]
+--
+* Pour le premier sujet, Qui aime bien parmi vous suivre les nouvelles tendances du domaine et souhaite l'expérimenter "pour voir" si cela peut servir sur votre projet
+--
+
+[%notitle]
+[.p2.bar3]
+=== Biais pro-innovation
+
+[.poke]
+image::poke_inov.png[width=500]
+
+[.notes]
+--
+* Dans la théorie de la diffusion de l'innovation, un préjugé favorable à l'innovation est une croyance selon laquelle l'innovation devrait être adoptée par l'ensemble de la société sans qu'il soit nécessaire de la modifier. Le "champion" de l'innovation a un tel préjugé favorable à l'innovation qu'il peut ne pas en voir les limites ou les faiblesses et continuer à la promouvoir malgré tout.
+* Ce biais correspond à l’idée qu’une innovation doit être diffusée et adoptée par tous les membres d’un système social parce qu’elle est une innovation, et que personne n’est censé être contre l’innovation.
+* faut du temps réel, du big data, de la prédiction
+--
+
+[%notitle]
+[.p2.bar4]
+=== Biais pro-innovation : Que faire ?
+
+* Un besoin n'est jamais piloté par un outil ou une techno
+* Toujours demander... Mais pourquoi ?
+* Raisonnement par l'absurde
+
+[.notes]
+--
+* Faut savoir que le ML doit rester la cerise sur le gâteau, à l'heure où on parle de l'IA generative, il reste important de se demander quand vraiment l'utiliser.
+* La solution la plus efficace que j'ai trouvé était de prendre le parti pris de prendre le sujet et de démontrer les âneries que l'on était en capacité de générer lors de l'utilisation ou réutilisation d'assets inutiles
+--
+
+[%notitle]
+[.p2.bar2]
+=== Analogie 2
+
+image::02_cout_analogie.jpeg[width=700]
+
+[.notes]
+--
+* Rappelez-vous mon client me disais que ca lui coûté cher donc fallait l'utiliser, cela me rappelle
+* L'entêtement des gouvernements français et britannique à miser sur le concorde alors que le fait que l'exploitation commerciale du Concorde ne pouvait être rentable était admis depuis 1973
+* Comme analogie, on pourrait parler des abonnements au cours de sports, les jeux mobiles sont des marchés qui se servent de ce biais pour que l'on continue à dépenser plus
+--
+
+[%notitle]
+[.p2.bar3]
+=== Biais des coûts irrécupérables
+
+[.poke]
+image::poke_cout.png[width=500]
+
+[.notes]
+--
+Cela coûte cher d'avoir des données et on a déjà avancé avec ces données
+
+* on ne peut pas revenir en arrière
+* on s'est engagé, on veut pas déranger
+* La limite "on savait pas" devient la limite "on peut pas"
+--
+
+[%notitle]
+[.p2.bar4]
+=== Biais des coûts irrécupérables - Que faire
+
+* Faire appel à un ami
+
+[.notes]
+--
+* Quand cela devient politique c'est tout de suite beaucoup plus compliqué à maîtriser
+* Il est souvent difficile de faire bouger les choses à notre échelle, un sponsor est le bienvenu
+* J'ai été confronté il y a une dizaine d'année à devoir travailler avec un outil BI Cognos qui n'était pas adapté au besoin mais qui avait été choisi car un service de la DSI avait commandé des centaines de licences sans savoir quoi en faire...
+--
+
+[%notitle]
+[.p2.bar5]
+=== Résultat Situation 5
+
+image::02_cout_resultat.png[width=700]
+
+[.notes]
+--
+* En abscisse : Le nombre d'entrée par film
+* En ordonnée : La notation du film (échelle de 1 à 20)
+* On se retrouve avec un score à partir d'un algo qui n'arien à voir celui qui prédit le nombre d'entrées que va faire un film produit par le réalisateur avec ses propres données
+--

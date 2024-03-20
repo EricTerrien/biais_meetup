@@ -1,0 +1,274 @@
+:imagesdir: img
+[%notitle]
+== Phase préparatoire
+
+image::02_avancement.png[size=fill]
+
+[.notes]
+--
+* On va commencer par la phase préparatoire du projet, et notamment à la phase d'expression de besoins, cela se fait souvent via un ensemble d'ateliers
+* Ce qui est bien avec la Data Vizualisation, c'est que tout le monde à son avis, et souvent tout le monde se convainc d'être expert sur le sujet.
+* Ces ateliers, souvent sous la supervision du donneur d'ordres, va nous permettre d'avoir les exigences fortes
+--
+
+[%notitle]
+[.p1.bar1]
+=== Situation 1 
+
+image::01_1_situation.jpg[width=700]
+
+[.notes]
+--
+* On a une équipe UX/UI au top et on a déjà vu ensemble le résultat que l'on souhaitait obtenir. Moi ce qu'il me faut c'est un camembert !
+* Hmmm, je vais faire une petite parenthèse
+--
+
+[%notitle]
+[.columns.is-vcentered.p1]
+=== () Team Camembert vs Team Doughnut
+
+[.column]
+--
+image::camembert.jpeg[width=500]
+--
+
+[.column]
+--
+image::donuts_americains.jpg[width=500]
+--
+
+[.notes]
+--
+* Qui aime faire des camemberts dans ses restitutions ?
+* Qui aime faire les donuts dans ses restitutions ?
+* Qui a raison : personne !
+--
+
+[%notitle]
+[.columns.is-vcentered.p1]
+=== () Pie Chart - Fight Club
+
+[.column]
+--
+image::fight_club.jpg[width=500]
+--
+
+[.column]
+--
+[%step]
+* First rule of Pie-club : You do *not* use *Pie Charts* (oui, car les américains préfèrent les tartes aux camemberts)
+* Second rule of Pie-club : You do *not* use *Pie Charts*
+--
+
+[%notitle]
+[.p1]
+=== () Pourquoi
+
+* L'œil humain ne sait pas comparer des angles
+* Il faut switcher entre la légende et le graphique pour comprendre le visuel
+* Il est difficile de visualiser les faibles pourcentages
+
+[.notes]
+--
+* Posez-vous cette question : Quel indice de confiance avez-vous sur votre capacité à découper une pizza en part égale ?
+* L'œil humain ne sait pas comparer des angles
+* Il faut switcher entre la légende et le graphique pour comprendre le visuel
+* Il est difficile de visualiser les faibles pourcentages
+--
+
+[%notitle]
+[.p1]
+=== () Pourquoi
+
+TIP: Le *bar chart* permet d'avoir une représentation plus visuelle des données
+
+image::why_pie_chart_stop.jpg[width=800]
+
+[%notitle]
+[.p1.bar2]
+=== Analogie
+
+image::01_1_analogie.jpg[width=700]
+
+[.notes]
+--
+* Pardon, revenons à nos moutons... et à ma demande du client
+* Qui a du mal à revoir ses choix de consommation ou d'abonnement (banque, opérateur téléphonique, assurance, produits de consommation, etc.)
+* C'est le même mécanisme qui va nous orienter sur un choix plutôt qu'un autre, on va avoir peur du risque
+--
+
+[%notitle]
+[.p1.bar3]
+=== Biais - Statu Quo
+
+[.poke]
+image::poke_statu_quo.png[width=500]
+
+[.notes]
+--
+* Biais de comportement qui traduit la résistance au changement et une attitude mentale dans laquelle toute nouveauté est perçue comme engendrant plus de risques que d'avantages.
+* On parle souvent de conduite du changement, de la difficulté à accompagner le client sur une nouveauté
+* J'ai été aussi confronté au mécanisme inverse où une figure d'autorité va avoir peur du changement avec cette petite phrase toute simple qui m'a agacé assez souvent : C'est mieux le camembert, les gens ne vont pas comprendre sinon...
+--
+[%notitle]
+[.p1.bar4]
+=== Biais - Statu Quo : Que faire ?
+
+//[%step]
+* Ne pas faire de maquettes en amont du phase de projets
+* Ne jamais figer une représentation
+
+[.notes]
+--
+* Ne pas faire de maquettes en amont du phase de projets, cela ne sert souvent qu'à choisir une représentation que l'on connaît et qui nous rassure
+* Tout comme les données évolue au fil du temps, les analyses et les restitutions évoluent en fonction des résultats obtenus.
+* Ne jamais figer une représentation
+--
+
+[%notitle]
+[.p1.bar5]
+=== Résultat Situation 1
+
+image::01_1_résultat.jpg[width=700]
+
+[.notes]
+--
+* Du coup, suite aux échanges avec mon client... On a brisé les 2 premières règles du Pie-club : Après avoir expliqué, ce qu'il a retenu ce qu'il voulait un donuts...
+* Pas trié, ce ne sont pas des valeurs identiques
+* Aucune idée si le total fait 100%... On a pas de valeurs
+* Un peu trop de catégories et pas triés, on pourrait croire que les valeurs sont identiques alors que non...
+* On démarre à midi et on tourne dans le sens des aiguilles d'une montre en triant de la plus grande à la plus petite valeur
+* La légende est à part alors qu'on préférerait l'avoir lié au visuel via des traits par exemple
+--
+
+[%notitle]
+[.p1.bar1]
+=== Situation 2
+
+image::the_office_handshake.png[width=700]
+
+[.notes]
+--
+* A peine le besoin du client obtenu, on me fait comprendre que c'est un futur gros client, c'est un petit projet pour appâter un plus gros, il ne faut surtout pas le contrarier
+* Comme je suis quelqu'un assez critique sur ce que l'on me demande, je vais bien sûr répondre que non je serais complètement impartial
+--
+
+[%notitle]
+[.p1.bar2]
+=== Analogie
+
+image::01_analogie_funding.jpeg[width=700]
+
+[.notes]
+--
+* Il y a de nombreuses études scientifiques faites par des équipes indépendantes, notamment dans l'industrie chimique, pharmaceutique, du tabac..., dont les résultats étaient beaucoup plus en faveur des commanditaires
+* Les causes peuvent être multiples :
+** Natures humaines : L'acte de réciprocité et le besoin de retourner une faveur
+** Erreurs scientifiques : recherches bâclées (plutôt rare)
+** Conclusion prédéterminé : Le client donne déjà le résultat obtenu
+--
+
+[%notitle]
+[.p1.bar3]
+=== Biais - Biais de financement
+
+[.poke]
+image::poke_funding.png[width=500]
+
+[.notes]
+--
+* Il s'agit d'un sous-ensemble de biais de l'expérimentateur
+* Il en est de même lors d'une relation client/ESN
+* Il est un peu border lui, car le plus souvent les prises de décisions sont conscientes avec la maxime bien connu : Le client est roi
+* Il est donc difficile d'identifier la part d'inconscient qui nous pousserai à avoir une distorsion cognitive
+--
+
+[%notitle]
+[.p1.bar4]
+=== Biais - Biais de financement : Que faire ?
+
+* Approche scientifique : Placebo
+* Séparation des pouvoirs
+* Isolation de l'équipe de recherche vis à vis du donneur d'ordre
+
+[.notes]
+--
+* En tant que data analyste ou scientist, nous ne sommes pas payé pour annoncer de bonnes nouvelles, mais pour fournir des informations précises, utiles et exploitables.
+* Dans la recherche, avec des moyens, on peut pratiqué des études randomisée en double aveugle, comme par exemple la mise en place de placebo dans le milieu de la médecine, pour diminuer l'influence, mais c'est parfois trop complexe sur un petit projet data
+--
+
+[%notitle]
+[.p1.bar5]
+=== Résultat Situation 2
+
+image::01_2_résultat.jpg[width=700]
+
+[.notes]
+--
+* Après avoir tout tenté pour le faire rire, j'ai bien vu que l'humour ce n'était pas son truc
+* Ne supportant pas les comédies, on l'a mis dans "Autres", pour ne pas polluer la représentation graphique
+--
+
+[%notitle]
+[.p1.bar1]
+=== Situation 3 
+
+image::01_curs_situation.jpeg[width=700]
+
+[.notes]
+--
+* Pour être en capacité d'analyser des données pour en extraire de la valeur il est indispensable de faire de comprendre le métier des sachants, des personnes qui manipulent les données au quotidien
+* Ces échanges sont le plus souvent fait durant des ateliers avec des CR que je rédige ou je demande une validation de ce que j'ai compris
+--
+
+[%notitle]
+[.p1.bar2]
+=== Analogie
+
+image::01_curs_analogie.jpeg[width=700]
+
+[.notes]
+--
+* Dans l'enseignement, les professeurs peuvent faire face à des difficultés lorsque l'apprentissage se fait du point de vue de l'enseignant
+* L'enseignant a déjà la connaissance qu'il ou elle cherche à transmettre, mais la manière dont cette connaissance est présentée n'est peut-être pas la meilleure pour ceux qui ne sont pas déjà familiarisés avec celle-ci.
+--
+
+[%notitle]
+[.p1.bar3]
+=== Biais - Malédiction de la connaissance
+
+[.poke]
+image::poke_curse.png[width=500]
+
+[.notes]
+--
+* La malédiction de la connaissance (Curse of knowledge) est un biais cognitif qui survient lorsqu'une personne, communiquant avec d'autres personnes, suppose inconsciemment que les autres ont les mêmes connaissances pour comprendre
+--
+
+[%notitle]
+[.p1.bar4.text-slide]
+=== Biais - Malédiction de la connaissance : Que faire ?
+
+* Définir la base de connaissance commune
+* Se mettre en accord : 
+** Sur les termes fonctionnels
+** Et leurs significations métiers
+
+[.notes]
+--
+* C'est vrai dans tout les domaines, nombre de fois où j'ai vu des discussions entre développeurs sans redéfinir la base commune des connaissances pour se remettre sur un pied d'égalité
+* Cela génère beaucoup de problème de communication
+--
+
+[%notitle]
+[.p1.bar5]
+=== Résultat Situation 3
+
+image::01_curs_resultat.jpeg[width=700]
+
+[.notes]
+--
+* Durant mes ateliers, j'ai interrogé des propriétaires de cinéma 
+* Il faut savoir qu'ils voient les films avant leur projection au public. Et ce sont eux qui ensuite vont vendre ces produits à un public moins averti. S'ils sont affectés par la malédiction de la connaissance, ils vont choisir différemment de ce qui pourrait être perçu par des publics de non initiés
+* Ce propriétaire m'expliquait qu'il faisait en moyenne plus de marge sur les documentaires animaliers
+--

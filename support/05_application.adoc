@@ -1,0 +1,180 @@
+:imagesdir: img
+[%notitle]
+== Phase de mise en application
+
+image::05_avancement.png[size=fill]
+
+[.notes]
+--
+* On va ensuite créer et mettre une application pour mettre en forme les données que ce soit dans un outil de reporting, un pdf, un mail ou un notebook
+* On va souhaitait démontrer nos analyses
+--
+
+[%notitle]
+[.p4.bar1]
+=== Situation 9
+
+image::05_prim_situation.jpeg[width=700]
+
+[.notes]
+--
+* On construit notre application et on doit choisir quelle information on va souhaiter mettre en premier dans le dashboard
+1er truc rouge, le reste vert, vision assez négative de ce que l'on va voir (faire un sondage)
+--
+
+[%notitle]
+[.p4.bar2]
+=== Analogie
+
+image::05_prim_analogie.jpeg[width=700]
+
+[.notes]
+--
+* Les études montrent qu'un patient aura un meilleur ressenti de sa prise en charge si les examens les plus douloureux ne se situe pas en début ou à la fin de sa prise en charge. Il vaut mieux le faire au milieu.
+* Le fait d'avoir présenté la maladie à coronavirus 2019 comme une "grippette" peut avoir biaisé l'estimation subséquente de la gravité de la maladie par le grand public
+--
+
+[%notitle]
+[.p4.bar3]
+=== Primauté et récence
+
+[.poke]
+image::poke_prim.png[width=500]
+
+[.notes]
+--
+* On se focalise sur ce que l'on voit en premier
+* Se focalise sur sa première impression - on met une étiquette sur quelque chose
+--
+
+[%notitle]
+[.p4.bar4]
+=== Primauté et récence : Que faire ?
+
+* Raconter une histoire
+* Choisir ses couleurs et son quadrillage
+* Commencer par la conclusion
+
+[.notes]
+--
+* Au contraire : On connaît le biais donc on commence par l'information la plus importante qui sera la seule retenue ?
+* Dans le dashboard, l'importance est de raconter une histoire sur la succession de visuels pour que le cheminement logique force l'utilisateur à comprendre l'importance de prendre en compte ce qu'il voit à l'écran
+--
+
+[%notitle]
+[.p4.bar1]
+=== Situation 10
+
+image::05_autruche_situation.jpeg[width=700]
+
+[.notes]
+--
+* Les notes de l'algorithme ne sont pas très bonnes, mais on décide de cacher pour pas montrer que nos résultats sont pas foufou
+--
+
+[%notitle]
+[.p4.bar2]
+=== Analogie
+
+image::05_autruche_analogie.png[width=700]
+
+[.notes]
+--
+* Shepherd & Kay (2012) ont présenté l'étude suivante : Un groupe a lu que les États-Unis disposeraient de pétrole pendant encore 240 ans (information positive), tandis que l'autre a lu que les réserves diminueraient dans 40 ans (information négative). Les participants ont ensuite répondu à un questionnaire visant à évaluer leur intérêt pour l'épuisement de l'énergie. Ceux qui ont lu que l'épuisement de l'énergie était un problème urgent et que le pétrole serait épuisé dans 40 ans étaient plus susceptibles d'éviter de s'informer sur le sujet.
+--
+
+[%notitle]
+[.p4.bar3]
+=== Effet d'autruche
+
+[.poke]
+image::poke_autr.png[width=500]
+
+[.notes]
+--
+* Cet effet est un biais cognitif par lequel les gens ont tendance à "faire l'autruche" et à éviter les informations potentiellement négatives mais utiles, telles que le retour d'information sur les progrès accomplis, afin d'éviter un malaise psychologique
+* évitent de connaître les risques liés à certaines décisions
+--
+
+[%notitle]
+[.p4.bar4]
+=== Effet d'autruche : Que faire ?
+
+* Différence culturelle : Collectiviste vs Individualiste
+* Faire confiance
+
+[.notes]
+--
+* Cultures collectivistes ont tendance à faire confiance aux retours négatifs par rapport aux cultures individualiste
+* Faire confiance, ce n'est pas grave de montrer des visuels qui souligne quelque chose de négatifs
+--
+
+[%notitle]
+[.p4.bar5]
+=== Résultat Situation 10
+
+WARNING: RIEN
+
+[.notes]
+--
+* on arrange les chiffres pour montrer ce qu'on veut, mais les décisions prisent derrière le sont tout autant
+* On a décidé de ne pas afficher le taux de certitude de nos prédictions tellement c'était pas bon
+--
+
+[%notitle]
+[.p4.bar1]
+=== Situation 11
+
+image::05_interpretation_situation.jpeg[width=700]
+
+[.notes]
+--
+* Pour raconter notre histoire les titres des différents visuels sont importants pour que l'utilisateur puisse voir de quoi on parle
+--
+
+[%notitle]
+[.p4.bar2]
+=== Analogie
+
+image::05_interpretation_analogie.jpeg[width=700]
+
+[.notes]
+--
+* Demander à quelle vitesse roulait la voiture, reposer la question à quelle vitesse lorsqu'elle s'écrasait
+* une étude a permis de mettre en évidence que La vitesse du deuxième groupe était plus élevée que celle du premier. Ainsi, les deux groupes ont réagi différemment lorsque la même question a été posée différemment.
+--
+
+[%notitle]
+[.p4.bar3]
+=== Biais d'interprétation :
+
+[.poke]
+image::poke_interpretation.png[width=500]
+
+[.notes]
+--
+* Il s'agit d'un regroupement de différents biais
+--
+
+[%notitle]
+[.p4.bar4]
+=== Biais d'interprétation : Que faire ?
+
+
+* Neutralité, ne doit pas donner d'informations sur les résultats
+
+[.notes]
+--
+* Pour éviter ce biais, il convient d'examiner les données dans les deux sens et de ne tirer qu'une conclusion
+--
+
+[%notitle]
+[.p4.bar5]
+=== Résultat Situation 11
+
+image::02_cout_resultat.png[width=700]
+
+[.notes]
+--
+* Que ce soit dans les titres et dans les légendes, si je reprends un visuel montré plus tôt, il n'est jamais pertinent de mettre des jugements de valeurs dans les libellés
+--

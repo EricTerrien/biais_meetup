@@ -1,0 +1,38 @@
+= Pourquoi mon projet Data est si biaisé !
+
+== Abstract
+
+Pourquoi ai-je pris cette décision ? Ou plutôt qu'est-ce qui m'a amené à prendre cette décision ? 
+J'étais pourtant sûr qu'un film sur la reproduction des pandas dans les milieux littoraux ferait de mon client un homme riche... 
+
+Dans le monde (merveilleux) de la Business Intelligence (BI) et de la DATA, les étapes se succèdent pour fournir LA représentation qui permettra de prendre la bonne décision. 
+C'était sans compter les différents cerveaux du projet qui vont venir perturber la réalisation de cette représentation. 
+
+Entre les biais algorithmiques, les biais cognitifs et les différents effets psychologiques, la route vers l'illumination est jonchée d'obstacles en tout genre. 
+
+Voyageons ensemble sur cette route pour comprendre ces biais et trouver les astuces pour les contourner.
+
+== Plan
+
+* 05 mn : Que sont les biais et autres effets psychologiques
+* 10 mn : Problématiques rencontrées lors de la prise de décision
+* 10 mn : Impacts sur la phase de la préparation de la donnée
+* 05 mn : Impacts sur la phase de l'alimentation de la donnée
+* 10 mn : Impacts sur la phase d'analyse de la donnée
+* 08 mn : Impacts sur la mise en application de la donnée
+* 02 mn : Conclusion
+
+Ce plan prévu pour une durée de 45 minutes peut s'adapter en fonction de besoins spécifiques :
+
+* Format 30 mn : Suppression d'une partie de l'interaction avec le public et de quelques exemples
+* Format 15 mn : Allègement des différentes introductions pour se focaliser sur les différents impacts
+
+
+Intention :
+
+* Montrer l'importance des biais dans la prise de décisions
+* Éviter l'effet catalogue en énumérant les différents biais
+* Présenter un REX sous un format humoristique en présentant des scènes qui se sont déjà produites sur mes projets
+
+
+

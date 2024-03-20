@@ -1,0 +1,21 @@
+= Pourquoi mon projet Data est si biaisé !
+
+:docinfo: private
+:source-highlighter: highlight.js
+:autofit-option:
+:icons: font
+:revealjs_slideNumber: true
+:revealjs_history: true
+:revealjs_theme: gop
+:revealjs_width: 1200
+:title-slide-background-image: title.png
+:title-slide-background-size: fill
+:customcss: css/meetup.css
+:imagesdir: img
+
+include::01_introduction.adoc[]
+include::02_preparation.adoc[]
+include::03_alimentation.adoc[]
+include::04_analyse.adoc[]
+include::05_application.adoc[]
+include::06_conclusion.adoc[]

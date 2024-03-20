@@ -1,0 +1,35 @@
+== Conclusion
+
+=== Biais
+
+* (Trop ?) Nombreux
+* Piège de vouloir tout rapporter au biais
+* Les biais ne sont pas forcément un problème
+
+[.notes]
+--
+* Comme les pokemon... Attrapez les tous !
+* (Trop ?) Nombreux
+* Piège de vouloir tout rapporter au biais
+* Les biais ne sont pas forcément un problème
+--
+
+=== Biais dans la data
+
+* Impossible d'y échapper
+* Des outils de datascience pour détecter l'apparition de biais statistiques
+
+[.notes]
+--
+* J'espère que les pistes données seront une matière à réflexion sur ce qui se passe dans votre inconscient
+* Outils : Google What If Tool, IBM AI Fairnes 360, Aequitas, Fairiearn, Sagemaker Clarify
+--
+
+[%notitle]
+=== Question
+
+WARNING: Merci à tous !
+
+=== Références
+
+* https://www.sciencepresse.qc.ca/blogue/cerveau-niveaux/2017/11/14/nous-sommes-aveugles-bien-causes-nos-choix-conscients#:~:text=Hall%20et%20Johansson%20ont%20nomm%C3%A9,face%20%C3%A0%20nos%20motivations%20profondes[Cécite au choix - Agence Science Presse - Peter Johansson]

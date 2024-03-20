@@ -1,0 +1,189 @@
+:imagesdir: img
+[%notitle]
+== Analyse de la donnée
+
+image::04_avancement.png[size=fill]
+
+[.notes]
+--
+* L'analyste va commencer à jouer avec les données pour en créer de la valeur
+--
+
+[%notitle]
+[.p3.bar1]
+=== Situation 6
+
+image::03_confirmation_situation.jpeg[width=700]
+
+
+[.notes]
+--
+* Il va analyser et partir sur une première piste qui correspond à sa première priorisation dans son schéma mental
+--
+
+[%notitle]
+[.p3.bar2]
+=== Analogie
+
+image::03_confirmation_analogie.jpeg[width=700]
+
+[.notes]
+--
+* Les algorithmes des réseaux sociaux comme youtube pousse à consommer du contenu qui vont dans le sens de ce que nous consommons déjà.
+--
+
+[%notitle]
+[.p3.bar3]
+=== Biais de confirmation
+
+[.poke]
+image::poke_conf.png[width=500]
+
+[.notes]
+--
+* Vous recherchez, interprétez, concentrez et mémorisez les informations d'une manière qui confirme vos idées préconçues. Si vous avez été formé à penser que les relations avec les clients permettent de conclure des ventes et que perdre une vente signifie que le prix était trop élevé, vous aurez un préjugé favorable à l'égard des données qui prouvent le contraire. Il est préférable d'étayer une décision par des données et de se laisser guider par les données.
+* On s'arrête sur un visuel qui confirme une intuition
+* On aime démontrer ce que l'on voulait démontrer
+--
+
+[%notitle]
+[.p3.bar4]
+=== Biais de confirmation : Que faire ?
+
+* Revue croisée
+* Essayer de faire un visuel qui démontre l'opposé
+
+[.notes]
+--
+* Revue croisée
+* Essayer de faire un visuel qui démontre l'opposé
+--
+
+[%notitle]
+[.p3.bar5]
+=== Résultat Situation 6
+
+image::04_confirmation_resultat.png[width=900]
+
+[.notes]
+--
+* En tant que développeur, si je pense que le gens préfèrent les films de super héros est qu'il est le plus intéressant à traiter, je risque de choisir une représentation qui le valide
+--
+
+[%notitle]
+[.p3.bar1]
+=== Situation 7 & Analogie
+
+image::03_correlation_analogie.jpeg[width=700]
+
+[.notes]
+--
+* On continue notre analyse
+* Savez-vous par exemple qu'il existe une corrélation entre la vente de crème glacée et le nombre de morts par noyade
+* C'est juste qu'on oublie juste le troisième paramètre qui est la température.
+--
+
+[%notitle]
+[.p3.bar3]
+=== corrélation illusoire
+
+[.poke]
+image::poke_corr.png[width=500]
+
+[.notes]
+--
+* la corrélation n'implique pas la causalité :  L'événement A est corrélé à l'événement B donc A cause B
+** B peut être la cause de A
+** Un troisième facteur, inconnu, non conscientisé ou non révélé, peut être la cause commune de A et de B ;
+** Une simple coïncidence (par exemple : il n'y a pas d'autre relation entre A et B à part qu'ils se sont produits au même moment) ;
+** B peut être la cause de A et en même temps A être la cause de B ; le système se renforce lui-même
+--
+
+[%notitle]
+[.p3.bar4]
+=== Corrélation illusoire - Que faire ?
+
+* Ne pas avoir peur des coïncidences
+* Ne pas s'arrêter à ce qui saute aux yeux
+
+[.notes]
+--
+* Ne pas chercher à tout expliquer, parfois il peut simplement s’agir d’une simple coïncidence
+* Tenter d’utiliser l’ensemble de l’information disponible
+* Ne pas s’arrêter à l’hypothèse la plus frappante, qui saute aux yeux, pour expliquer un lien
+* Si vous voulez savoir comment on peut appliquer le do-calculus de Judea Pearl pour annuler l'impact des variables confondantes, vous en saurez plus cet après-midi avec le data scientist le plus fort de l'U-NI-VERS
+--
+
+[%notitle]
+[.p3.bar5]
+=== Résultat Situation 7
+
+image::04_correlation_resultat.png[width=900]
+
+[.notes]
+--
+* Fréquentation des salles et fréquentation de la plage. Le lien c'est la température, pas le fait que les gens préfère la plage au cinéma
+--
+
+[%notitle]
+[.p3.bar1]
+=== Situation 8
+
+image::03_information_situation.jpeg[width=700]
+
+[.notes]
+--
+* Il me manque des données, je vais essayer de regarder des données opensource
+* Hmmm, c'est compliqué. Et là j'ai une idée de génie
+* Je vais voir les recherches Google des gens pour voir ce qui les intéressent en terme d'image/video
+--
+
+[%notitle]
+[.p3.bar2]
+=== Analogie
+
+image::google_trends_fr_4_200402_201640_TRENDS.png[width=1500]
+
+[.notes]
+--
+* En 2008, Google a mis au point une nouvelle méthode d'alerte précoce de la grippe afin d'en limiter la prolifération en collectant les mots-clés utilisés par les habitants d'une région.
+* Mais l'augmentation du nombre de mots-clés recherchés n'est pas une mesure correcte pour déterminer de telles choses,
+* Cela peut simplement signifier que les journaux d'informations traitent de l'information à un instant donné.
+* Je vois du monde bouger la tête pour lire la légende, c'est pratique hein...
+--
+
+[%notitle]
+[.p3.bar3]
+=== Biais d'informations
+
+[.poke]
+image::poke_info.png[width=500]
+
+[.notes]
+--
+* vous recherchez des informations même lorsqu'elles ne peuvent pas avoir d'incidence sur l'action. Y a-t-il trop de données ? Certains diront que non, mais il arrive que vous souhaitiez examiner des paramètres spécifiques.
+--
+
+[%notitle]
+[.p3.bar4]
+=== Biais d'information : Que faire ?
+
+* Il faut critiquer la donnée recherchée
+* Analyse humaine importante pour aller BEYOND the Data
+
+[.notes]
+--
+* Il est important d'ouvrir le champ des possibles, mais il faut être lucide d'écarter les données inutiles
+--
+
+[%notitle]
+[.p3.bar5]
+=== Résultat Situation 8
+
+image::04_information_resultat.png[width=800]
+
+[.notes]
+--
+* En partant d'une analyse des données les plus recherchés sur le moteur de recherche duckduckgo
+* Mon algo a donc mieux noté les contenus de films où se trouvaient beaucoup d'animaux, c'est à dire les documentaires animaliers
+--

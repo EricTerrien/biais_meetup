@@ -1,0 +1,12 @@
+= Meetup Biais BI
+
+Repo contenant la préparation et les sources d'un meetup centré sur l'impact des biais cognitifs dans le métier de la BI
+
+== Generation des slides
+
+[source,shell]
+----
+docker login XXXXXXXXXXXXXXXXXXXX/artifactory/cds-bdx-docker/
+cd support/
+docker container run --rm -it -v $(pwd):/documents  XXXXXXXXXXXXXXXXXXXX/gop-asciidoctor:1.18 gop-reveal 00_index.adoc
+----

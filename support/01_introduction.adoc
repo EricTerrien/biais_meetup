@@ -1,0 +1,223 @@
+:imagesdir: img
+
+== Disclaimer
+
+La conférence que vous avez choisie de voir concerne des faits relatifs à une histoire fictive. Toute ressemblance avec des événements réels ou des porsennes existant ou ayant existé ne serait être fortuite. Nous ne visons en aucun cas à dénigrer, ridiculiser ou porter atteinte à des individus ou des groupes issus de la réalité. Nous espérons que la présentation de ce scénario fictif saura vous divertir et vous amener à réfléchir sur diverses thématiques.
+
+[%notitle]
+== Présentation
+
+image::00_moi.jpg[background, size=fill]
+
+[.notes]
+--
+* Je ne suis pas un spécialiste des sciences cognitives
+* J'ai travaillé sur des domaines assez variés, mais toujours en relation avec le stockage, la transformation et la restitution de la donnée
+* Pour aller plus loin et sur ce quoi je me suis inspiré pour la partie théorique, je ne peux que vous recommander ces 2 livres
+--
+
+[%notitle]
+=== Cerveaux
+
+image::00_cerveau.jpeg[width=700]
+
+[.notes]
+--
+* Notre cerveau fonctionne par approximation. A notre insu, il va nous aider à percevoir le monde qui nous entoure.
+* Nos sens (vue, ouïe...) vont capter les informations mais c'est notre cerveau qui va prendre les décisions. On pourrait parler du 6ème sens et non ce n'est pas le COSMO...
+* L'organe est le même pour tout le monde, pourquoi, vous et moi, ne prenons pas les mêmes décisions ?
+* Comme dirait mon maître...
+--
+
+[%notitle]
+=== Cerveaux / Yoda
+
+image::00_yoda.jpeg[width=700]
+
+[.notes]
+--
+* Les vérités auxquelles nous nous attachons dépendent avant tout de notre propre point de vue
+* Le plus souvent nous choisissons ce que nous voulons voir, nous allons même jusqu'à remplacer le vide par quelque chose qui nous semble cohérent.
+* Par exemple, imaginez-vous à la dernière conférence ou séance de cinéma auquel vous avez participé et principalement de vos voisins à ce moment précis, vous ne vous souvenez pas de leur tête mais quand vous imaginer la scène, vous arrivez à y implanter des humains dont le visage n'est qu'une génération de votre cerveau.
+* Je n'irai pas jusqu'à dire que votre cerveaux est un LLM, mais cela reste assez troublant !
+--
+
+=== Disclaimer
+
+La conférence que vous avez choisie de voir concerne des faits relatifs à une histoire fictive. Toute ressemblance avec des événements réels ou des *porsennes* existant ou ayant existé *ne serait être fortuite*. Nous ne visons en aucun cas à dénigrer, ridiculiser ou porter atteinte à des individus ou des groupes issus de la réalité. Nous espérons que la présentation de ce scénario fictif saura vous divertir et vous amener à réfléchir sur diverses thématiques.
+
+[.notes]
+--
+* Comme je vous le disais avant, le comblement du vide peut survenir de multiples façons, par exemple, rappelez-vous votre cerveau a pu remplacer rapidement de voyelles de place dans le mot "Personnes"
+* Mais comme on a l'habitude de lire ce genre de disclaimer, on les lit rapidement sans voir que l'on peut *complètement* se tromper sur l'information écrite
+* C'est vital d'interpréter le monde qui nous entoure, mais quand on se base sur des approximations, cela peut conduire à des comportements non prévus
+--
+
+=== Heuristique
+
+image::00_heuristique.jpeg[width=500]
+
+[.notes]
+--
+* Ces approximations vont nous permettra d'aborder le concept d'heuristique, dans le cadre des biais, on va souvent parler de "raccourcis de pensées"
+* Il va s'agir du réflexe que nous avons lors de la résolution d'un problème. Ce réflexe va nous permettre de le simplifier pour le résoudre à partir de nos connaissances incomplètes. Tel Jean-Michel "Apeupré", par l'approximation, on arrivera à un résultat qui n'est pas vraiment le plus correct
+* Essayons d'aller plus loin dans le fonctionnement de notre cerveau, attention la prochaine slide peut faire peur
+--
+
+[%notitle]
+=== System 1
+
+image::00_sys1.jpg[width=800]
+
+[.notes]
+--
+* Imaginez-vous dans un call avec cet individu, je vous demanderez de lever la main si vous pensez que cet homme est plutôt dubitatif sur ce que vous êtes en train de raconter
+* On est plutôt d'accord qu'il est dubitatif
+* Passons à un autre exemple...
+--
+
+[%notitle]
+=== System 2
+
+image::00_sys2_sans_result.jpeg[width=700]
+
+[.notes]
+--
+* Merci de lever la main quand vous avez le résultat...
+* On peut voir que le nombre de main qui se lève rapidement est bien différent.
+* Dans le premier exemple, vous n'étiez pas sûr de vous et n'avez pas le moyen de vérifier, mais votre intuition a confirmé votre prise de décision, alors que dans le cas du calcul mental, ce n'était pas le cas.
+--
+
+[%notitle]
+=== System 2
+
+image::00_sys2_avec_result.jpeg[width=700]
+
+[.notes]
+--
+* Pour ceux qui sont toujours en train de calculer, je vous mets le résultat...
+--
+
+[%notitle]
+=== Système 1 et 2
+
+image::00_systeme.png[width=800]
+
+[.notes]
+--
+* Popularisé par Kahneman (prix nobel d'économie) et Tversky, on va dissocier 2 système sur le fonctionnement du cerveau 
+* Lors de la reconnaissance de la photo, on s'est basé sur le système 1, où l'approximation de notre décision a été contrebalancé par la rapidité du choix
+* Alors que durant le calcul complexe, on s'est basé sur le système 2, où l'ont va chercher à avoir le résultat exact au détriment de la rapidité
+--
+
+=== Un bon équilibre
+
+image::00_edouard_baer.jpg[width=800]
+
+[.notes]
+--
+* Comme dirait notre ami Otis, Il n'y a pas de bon ou mauvais système, c'est avant tout une histoire de contexte
+* On pourrait croire que le système réflexif est plus efficace, mais certaines études on pu démontrer que le sur-effort peut être contre-productif : Plusieurs d'entre nous on souvent fait un chiffrage à la grosse maille en 5 minutes qui s'est révélé plus juste qu'un micro chiffrage sur un cadrage qui nous aurait pris la journée...
+* Alors maintenant qu'on a expliqué comment fonctionné le cerveau et son fonctionnement par approximation, parlons des biais
+--
+
+[%notitle]
+=== Qu'est-ce qu'un biais ?
+
+image::00_biais.png[width=1200]
+
+[.notes]
+--
+
+* Selon Jean-François Le Ny, psychologue spécialisé dans la cognition : « Un biais est une distorsion (déviation systématique par rapport à une norme) que subit une information en entrant dans le système cognitif ou en sortant. Dans le premier cas, le sujet opère une sélection des informations, dans le second, il réalise une sélection des réponses ».
+* Et surtout, ils sont de l'ordre de l'inconscient
+* Le système 1 va plus être souvent soumis à des biais que le système 2 et donc être sujets à des erreurs
+* Le système 2 n'était pas meilleur que le système 1, les biais ce n'est pas sale, c'est parfois très utile
+--
+
+[%notitle]
+=== Listes des biais
+
+image::00_list_biais.jpg[width=800]
+
+[.notes]
+--
+* Les biais, c'est ça...
+* Les recherches en neuro-science sont conséquentes, il y autant de nouveaux biais que de framework Javascript qui sort tout les ans, on approche des 200.
+* On va pas commencer par là pour les analyser
+--
+
+=== Catégorisation des biais
+
+* Trop complexe
+* Cf. https://bias.visual-literacy.org/
+
+[.notes]
+--
+* J'ai trouvé plein de façon de les catégoriser, mais cela restait obscur, j'avais l'impression de toujours pouvoir les classer dans plusieurs cases et cela ne faisait pas avancer le sujet
+* Partons plutôt d'un exemple connu, notamment dans notre domaine 
+-- 
+
+[%notitle]
+=== Exemple de biais
+
+image::00_effet_dunning_kruger.png[width=900]
+
+[.notes]
+--
+* Biais bien connu mais par forcément bien compris :
+* Mécanisme cognitif par lequel les personnes les moins qualifiées d'un groupe tendent à surestimer leur compétence dans un domaine.
+* Cela ne veut pas dire qu'elles s'estiment plus compétentes qu'une autorité (expert)
+* De plus, des recherches remettent en cause les conclusions de l'étude originelle
+//https://skepchick.org/2020/10/the-dunning-kruger-effect-misunderstood-misrepresented-overused-and-non-existent/
+--
+
+=== Prise de décisions
+
+image::00_prise_decision.jpg[width=800]
+
+[.notes]
+--
+* On peu synthétisé la prise de décision selon cette représentation. Un biais surviendra à une de ces étapes, une des classification possible.
+* Analyse décisionnelle ou Business Intelligence est l'ensemble des mécanismes de transformation et restitution de la donnée en vue de prendre des décisions
+* Cela a été étendue à l'ensemble des projets "Data"
+* La prise de décision va se baser sur les restitutions fournis aux décideurs (les visuels et les données qui les composent)
+* On s'imagine à tord que les biais vont uniquement survenir à la phase final du processus, mais la réalité que les problèmes surviennent à chaque étape du projet
+-- 
+
+=== Différentes phases d'un projet DATA
+
+image::01_avancement.png[size=fill]
+
+[.notes]
+--
+* Dans un projet BI ou Data, en schématisant à l'extrême, on va respecter une chronologie assez simple 
+** La phase préparatoire, la phase amont à la réalisation, où se déroulera le cadrage, l'expression du besoin
+** La phase d'alimentation, la phase ou l'on va modéliser et créer nos ensembles de données, en BI, on parlera plus de Datawarehouse et de Datamart sinon on parlera plus généralement de datasets. Pour rappel dans un Datawarehouse, on va stocker les données utiles, nettoyées et historisées dans le but d'être en capacité de recréer les Datamarts qui sont des représentations fonctionnelles répondant à un use case métier précis.
+** La phase d'analyse va nous servir à chercher de la valeur sur l'ensemble des datasets créés
+** Et enfin la création de l'application va nous servir à mettre en forme le résultat des analyses que ce soit des dashboards ou des rapports
+--
+
+=== Présentation de mon client
+
+image::the_office_handshake.png[width=700]
+
+[.notes]
+--
+* Rentrons dans le vif du sujet : 
+* J'ai été mandaté par un producteur de film qui recherchait à optimiser le choix des projets qu'il devait accepter de la part des réalisateurs qui venaient le solliciter. Il voulait savoir quel contenu un film a petit budget devait proposer pouvait générer de bonnes grosses recettes
+--
+
+=== Mon REX
+
+image::bar_full.png[size=fill]
+
+[.notes]
+--
+* Je vais vous faire un REX que je vais essayer de décliner selon le formalisme suivant : 
+** Présentation d'une situation
+** Analogie de la situation dans notre vie de tout les jours
+** Présentation du Biais
+** Ce qu'il faut faire dans notre situation
+** Le résultat de la situation 
+--

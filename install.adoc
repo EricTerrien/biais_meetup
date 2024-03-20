@@ -1,0 +1,20 @@
+= Installation de l'environnement
+
+== Graph.js
+
+* https://www.chartjs.org/docs/latest/getting-started/usage.html[Documentation]
+* https://htmlcolorcodes.com/fr/tableau-de-couleur/tableau-de-couleur-du-web/[Palette de couleurs]
+
+[source,shell]
+----
+cd app
+npm install
+npm run dev
+rm -rf .parcel-cache
+npm run dev
+----
+
+
+
+
+
