@@ -6,4 +6,4 @@ settings.json
 .js
 .vscode
 support/reveal.js
-00*.html
+#00*.html
